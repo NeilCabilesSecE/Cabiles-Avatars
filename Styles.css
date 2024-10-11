@@ -1,0 +1,90 @@
+/* use the google font */
+body {
+    font-family: 'Protest Strike', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00fddb;  
+}
+
+h1 {
+    text-align: center;
+    Color: white; /*Darker text color for my heading */
+    border: 3px solid darkblue; /* Add dark blue border */
+    padding: 15px; /* Add some padding for spacing */
+    background-color: rgb(67, 164, 255); /* Optional: background color inside the border */
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+P {
+    font-family: 'Protest Stryke', sans-serif; 
+    text-align: cnter;
+    color: rgb(255, 255, 255);
+    border: 7px solid blue;
+    padding: 19px;
+    background-color: rgb(57, 181, 223);
+    margin: 25px auto;
+    width: fit-content;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 1300px; 
+    margin: 0 auto; 
+}
+
+.card {
+    flex: 0 0 22%;
+    box-shadow: 0 4px 8px rgb(455, 455, 455); 
+    margin: 10px; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    background-color: rgb(38, 185, 253); 
+}
+
+.container {
+    padding: 17px; 
+    text-align: center; 
+}
+
+#Feedback {
+    margin-top: 49px; 
+    padding: 35px;
+    background-color: #1fbefd;
+    border-radius: 9px;
+}
+
+#Feedback h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 76%;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: #ff1010;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00d9ff;
+}
